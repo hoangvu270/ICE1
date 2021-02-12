@@ -14,6 +14,9 @@ public class CardTrick {
        cardA.setValue(6);
        cardA.setSuit("Hearts");
        System.out.println(cardA.toString());
+       Card cardB = new Card();
+       cardB.setValue(7);
+       cardB.setSuit("Diamonds");
     }
     
 }

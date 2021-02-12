@@ -44,6 +44,13 @@ public class Card {
     }
    
    
+    /**
+     * @return the string
+     */
+    @Override
+    public String toString() {
+        return "The value of the card is " + this.getValue() + " and the suit is " + this.getSuit();
+    }
     
 }
 
